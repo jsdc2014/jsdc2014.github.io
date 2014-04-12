@@ -15,6 +15,10 @@ body {
   margin: 0 56px;
 }
 
+.main {
+  overflow: hidden;
+}
+
 .topbar {
   position: relative;
   z-index: 10;
@@ -75,6 +79,7 @@ body {
   z-index: 1;
   text-align: center;
   border-bottom: 2px #d85e4f solid;
+  overflow-x: hidden;
 }
 
 .section-cover-logo {
