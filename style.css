@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Lato:700);
 
 html {
   font-size: 10px;
@@ -216,7 +216,8 @@ body {
 
 .section-regist-type-title {
   margin: 0 0 26px;
-  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   text-align: center;
 }
 
