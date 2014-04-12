@@ -1,0 +1,264 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #2c2f1e;
+}
+
+.container {
+  position: relative;
+  margin: 0 56px;
+}
+
+.topbar {
+  position: relative;
+  z-index: 10;
+  background: #f9f4f8;
+  height: 86px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+  overflow: hidden;
+}
+
+.topbar a {
+  color: #4c474b;
+  text-decoration: none;
+}
+
+.topbar .container {
+  height: 86px;
+}
+
+.topbar-sitename {
+  display: inline-block;
+  margin: 0;
+  width: 170px;
+  height: 86px;
+  background: url(./images/logo.png) center no-repeat;
+  text-indent: 200%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.topbar-nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 59px;
+  white-space: nowrap;
+  text-align: right;
+  line-height: 59px;
+  font-weight: 300;
+}
+
+.topbar-menu {
+  margin: 0;
+  list-style: none;
+}
+
+.topbar-menu-item {
+  display: inline-block;
+  padding: 0;
+  margin: 0 0 0 44px;
+}
+
+.section {
+  position: relative;
+  min-height: 706px;
+}
+
+.section-cover {
+  z-index: 1;
+  text-align: center;
+  border-bottom: 2px #d85e4f solid;
+}
+
+.section-cover-logo {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  margin-top: -276px;
+  margin-left: -196px;
+  width: 392px;
+  height: 392px;
+  background: url(./images/big-logo.png);
+}
+
+.section-cover-mask {
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  margin-left: -875px;
+  margin-top: -690px;
+  width: 1750px;
+  height: 1750px;
+  background: url(./images/mask.png);
+  pointer-events: none;
+}
+
+.section-cover-date {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-top: 155px;
+  margin-left: -212px;
+  width: 424px;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.section-cover-month {
+  color: #5c8012;
+}
+
+.section-cover-days {
+  color: #ba381e;
+}
+
+.section-cover-city {
+  color: #226578;
+}
+
+.section-cover-title {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-top: 220px;
+  margin-left: -483px;
+  width: 966px;
+  font-size: 3.4rem;
+  font-weight: 300;
+}
+
+.section-intro {
+  background: url(./images/photo.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  border-bottom: 3px #8cad2a solid;
+}
+
+.section-intro-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .6;
+}
+
+.section-intro-container {
+  position: relative;
+  z-index: 1;
+  width: 680px;
+  margin: 128px auto 0;
+}
+
+.section-intro-title {
+  margin-bottom: 58px;
+  font-size: 2.8rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.section-intro-content {
+  text-align: justify;
+  line-height: 2em;
+}
+
+.section-regist {
+  background: #e9e9e9;
+  overflow: hidden;
+  min-height: 0;
+  border-bottom: 3px #3d91bd solid;
+}
+
+.section-regist-title {
+  margin: 60px 0;
+  color: #171717;
+  font-size: 2.8rem;
+  font-weight: normal;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.section-regist-types {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.section-regist-type {
+  display: inline-block;
+  width: 298px;
+  margin: 0 28px 106px;
+  padding: 36px;
+  background: #FFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, .2);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.section-regist-type-title {
+  margin: 0 0 26px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.section-regist-type p {
+  margin-bottom: 12px;
+}
+
+.section-regist-buy {
+  display: inline-block;
+  width: 241px;
+  height: 42px;
+  margin-top: 18px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 42px;
+  text-align: center;
+  background: #75ac2d;
+}
+
+.section-location {
+  min-height: 660px;
+  background: #222;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  border-bottom: 3px #3b91b4 solid;
+}
+
+.section-location-title {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.section-location-address {
+  margin: 0 0 65px;
+}
+
+.page-footer {
+  padding: 24px 0;
+  background: #191919;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ebebeb;
+}
+
+.page-footer p {
+  margin: 0;
+}
