@@ -15,7 +15,7 @@ body {
   margin: 0 56px;
 }
 
-.main {
+.wrapper {
   overflow-x: hidden;
 }
 
@@ -282,20 +282,20 @@ body {
     height: auto;
     top: 86px;
     bottom: inherit;
-    -webkit-transform: translate3d(200px, 0, 0);
-    -moz-transform: translate3d(200px, 0, 0);
-    -ms-transform: translate3d(200px, 0, 0);
-    transform: translate3d(200px, 0, 0);
+    -webkit-transform: translate3d(100px, 0, 0);
+    -moz-transform: translate3d(100px, 0, 0);
+    -ms-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
     opacity: 0;
     pointer-events: none;
     transition: all .4s;
   }
 
   .topbar-nav.open {
-    -webkit-transform: translate3d(0px, 0, 0);
-    -moz-transform: translate3d(0px, 0, 0);
-    -ms-transform: translate3d(0px, 0, 0);
-    transform: translate3d(0px, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     opacity: 1;
     pointer-events: inherit;
   }
