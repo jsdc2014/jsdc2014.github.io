@@ -334,9 +334,11 @@ body {
     left: 0;
     margin-left: 0;
     font-size: 2.4rem;
-    width: inherit;
+    width: 100%;
     padding-left: 24px;
     padding-right: 24px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
   }
 
   .section-intro-container {
