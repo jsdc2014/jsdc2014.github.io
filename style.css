@@ -25,7 +25,6 @@ body {
   background: #f9f4f8;
   height: 86px;
   box-shadow: 0 0 6px rgba(0, 0, 0, .2);
-  overflow: hidden;
 }
 
 .topbar a {
@@ -268,4 +267,64 @@ body {
 
 .page-footer p {
   margin: 0;
+}
+
+.topbar-menu-toggle-btn {
+  display: none;
+}
+
+@media screen and (max-width: 848px) {
+  .container {
+    margin: 0 24px;
+  }
+
+  .topbar-nav {
+    height: auto;
+    top: 86px;
+    bottom: inherit;
+    -webkit-transform: translate3d(200px, 0, 0);
+    -moz-transform: translate3d(200px, 0, 0);
+    -ms-transform: translate3d(200px, 0, 0);
+    transform: translate3d(200px, 0, 0);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+
+  .topbar-nav.open {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+    opacity: 1;
+    pointer-events: inherit;
+  }
+
+  .topbar-menu-item {
+    display: block;
+    margin: 12px 0;
+    height: 59px;
+  }
+
+  .topbar-menu-item a {
+    float: right;
+    padding: 0 24px;
+    background: #f9f4f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+  }
+
+  .topbar-menu-toggle-btn {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    right: 24px;
+    top: 50%;
+    margin-top: -13px;
+    width: 32px;
+    height: 26px;
+    background-image: linear-gradient(rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 20%, transparent 20%, transparent 40%, rgba(0, 0, 0, .2) 40%, rgba(0, 0, 0, .2) 60%, transparent 60%, transparent 80%, rgba(0, 0, 0, .2) 80%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+  }
 }
