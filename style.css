@@ -327,4 +327,29 @@ body {
     background-size: 100%;
     cursor: pointer;
   }
+
+
+  .section-cover-title,
+  .section-cover-date {
+    left: 0;
+    margin-left: 0;
+    font-size: 2.4rem;
+    width: inherit;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .section-intro-container {
+    width: inherit;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .section-regist-type {
+    margin-bottom: 86px;
+  }
+
+  .section-location-address {
+    padding: 0 24px;
+  }
 }
