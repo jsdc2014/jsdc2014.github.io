@@ -78,18 +78,14 @@ body {
   z-index: 1;
   text-align: center;
   border-bottom: 2px #d85e4f solid;
+  min-height: 500px;
 }
 
 .section-cover-logo {
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  top: 50%;
-  margin-top: -276px;
-  margin-left: -196px;
-  width: 392px;
-  height: 392px;
-  background: url(./images/big-logo.png);
+  margin: 48px auto;
+  width: 990px;
+  height: 350px;
+  background: url(./images/activity.jpg);
 }
 
 .section-cover-mask {
@@ -130,13 +126,7 @@ body {
 }
 
 .section-cover-title {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  margin-top: 220px;
-  margin-left: -483px;
-  width: 966px;
+  text-align: center;
   font-size: 3.4rem;
   font-weight: 300;
 }
