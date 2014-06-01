@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ."
+    "install": "jade jade/*.jade -o ./",
+    "start": "http-server .",
+    "watch": "jade jade/*.jade -o ./ -w"
   },
   "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
   "license": "MIT",
   "dependencies": {
     "http-server": "~0.6.1"
+  },
+  "devDependencies": {
+    "jade": "^1.3.1"
   }
 }

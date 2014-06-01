@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charset="utf-8"><title>JSDC 2014</title><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="bower_components/normalize.css/normalize.css"><link rel="stylesheet" href="style.css"></head><body><div class="wrapper"><div class="topbar"><div class="container"><h1 class="topbar-sitename">JSDC 2014</h1><nav class="topbar-nav"><ul class="topbar-menu"><li class="topbar-menu-item"><a href="#about">ABOUT</a></li><li class="topbar-menu-item"><a href="">SPONSORING</a></li></ul></nav><a class="topbar-menu-toggle-btn"></a></div></div><div class="page-cover page-cover-sponsoring"></div><main role="main" class="page-main"><div class="container"><h1>Sponsoring</h1><!-- 贊助說明--></div></main><footer class="page-footer"><p>contact us: hq@jsdc.tw</p><p>Logo and design by<a href="https://twitter.com/rocavence" target="_blank">ROCA</a>&<a href="https://twitter.com/ideasing" target="_blank">Cyril﻿</a></p></footer></div><script src="./element.js"></script><script>(function (window) {
+  'use strict';
+  var toggle = document.querySelector('.topbar-menu-toggle-btn');
+  var menu = document.querySelector('.topbar-nav');
+  
+  toggle.addEventListener('click', function () {
+    if (menu.classList.contains('open')) {
+      menu.classList.remove('open');
+    } else {
+      menu.classList.add('open');
+    }
+  });
+})(this);</script></body></html>

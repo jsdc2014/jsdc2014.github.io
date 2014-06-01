@@ -1,0 +1,28 @@
+doctype html
+html(lang="zh-TW")
+  head
+    meta(charset="utf-8")
+    title JSDC 2014
+    meta(name="viewport", content="width=device-width")
+    link(rel="stylesheet", href="bower_components/normalize.css/normalize.css")
+    link(rel="stylesheet", href="style.css")
+  body
+    .wrapper
+      include topbar
+      block main
+      include footer
+    script(src="./element.js")
+    script.
+      (function (window) {
+        'use strict';
+        var toggle = document.querySelector('.topbar-menu-toggle-btn');
+        var menu = document.querySelector('.topbar-nav');
+
+        toggle.addEventListener('click', function () {
+          if (menu.classList.contains('open')) {
+            menu.classList.remove('open');
+          } else {
+            menu.classList.add('open');
+          }
+        });
+      })(this);
