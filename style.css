@@ -10,6 +10,11 @@ body {
   color: #2c2f1e;
 }
 
+a {
+	color: #56c7ed;
+	text-decoration: none;
+}
+
 .container {
   position: relative;
   margin: 0 56px;
@@ -37,6 +42,7 @@ body {
 }
 
 .topbar-sitename {
+	position: relative;
   display: inline-block;
   margin: 0;
   width: 170px;
@@ -45,6 +51,14 @@ body {
   text-indent: 200%;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.topbar-sitename a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .topbar-nav {
@@ -265,13 +279,13 @@ body {
 
 .page-cover-sponsoring {
 	height: 350px;
-	background: url(images/sponsoring.jpg) no-repeat center center; 
+	background: url(images/activity.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	box-shadow: inset 0 -10px 5px rgba(0, 0, 0, .1);
-	border-bottom: 5px #eee solid;
+	box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+	border-bottom: 5px #f5f5f5 solid;
 }
 
 @media screen and (max-width: 848px) {
