@@ -1,14 +1,17 @@
 extends layout/layout
 
 block main
-  .page-cover.page-cover-sponsoring
-  main(role="main").page-main
+  main(role="main").main.sponsoring
+    //- .page-cover.page-cover-sponsoring
     .container
-      h1 Sponsoring
-      p
-        | We have a wide variety of sponsoring opportunities available. 
-        | They usually sell out quickly :) Talk to us: 
-        a(href="mailto:hq@jsdc.tw") hq@jsdc.tw
+      .text
+        h1 Sponsoring
+        p
+          | We have a wide variety of sponsoring opportunities available.
+          | They usually sell out quickly :) Talk to us: 
+          a(href="mailto:hq@jsdc.tw") hq@jsdc.tw
 
-      p
+      a.img-link(href="mailto:hq@jsdc.tw")
         img(src="/images/sponsoring.jpg")
+    section.section.section-cover
+      .section-cover-logo
