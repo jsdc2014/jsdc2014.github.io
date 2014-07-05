@@ -433,4 +433,8 @@ a {
   .section-location-address {
     padding: 0 24px;
   }
+
+	.speaker {
+		width: 100%;
+	}
 }
