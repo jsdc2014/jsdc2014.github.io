@@ -366,6 +366,20 @@ a {
   border-bottom: 5px #f5f5f5 solid;
 }
 
+
+.sponsor {
+  margin-bottom: 20px;
+}
+
+.sponsor .description {
+  margin-top: 20px;
+}
+.sponsor .brand {
+  display: block;
+  font-weight: bold;
+}
+
+
 @media screen and (max-width: 1024px) {
 	.container {
 		margin: 0 54px;
