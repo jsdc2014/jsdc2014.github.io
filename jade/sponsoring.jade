@@ -1,14 +1,57 @@
 extends layout/layout
 
 block main
-  .page-cover.page-cover-sponsoring
-  main(role="main").page-main
+  main(role="main").main.sponsoring
+    //- .page-cover.page-cover-sponsoring
     .container
-      h1 Sponsoring
-      p
-        | We have a wide variety of sponsoring opportunities available. 
-        | They usually sell out quickly :) Talk to us: 
-        a(href="mailto:hq@jsdc.tw") hq@jsdc.tw
+      h1 JSDC 2014 Sponsors
+        .sponsor
+            a(href="http://www.microsoft.com/", "Microsoft")
+                img(src="images/sponsor/microsoft.png", alt="Microsoft")
+            .description
+        .sponsor
+            a(href="http://www.amazon.com/", "")
+                img(src="images/sponsor/amazon.png", alt="Amazon")
+            .description
 
-      p
+        .sponsor
+            a(href="http://www.synology.com/", "")
+                img(src="images/sponsor/synology.png", alt="Synology")
+            .description
+
+        .sponsor
+            a(href="http://www.yahoo.com/", "")
+                img(src="images/sponsor/yahoo.png", alt="Yahoo!奇摩")
+            .description
+
+        .sponsor
+            a(href="http://www.kkbox.com/", "")
+                img(src="images/sponsor/kkbox.png", alt="KKBOX")
+            .description
+
+      //- .sponsor
+      //-   a(href="http://2014.jsdc.tw", "title")
+      //-     img(src="/images/sponsor/jsdc_logo.png")
+      //-   .description
+      //-     a.brand(href="#jsdc") JSDC 2014
+      //-     | there is jsdc offical logo, if you are want to sponsor us, please contact us
+      //- .sponsor
+      //-   img(src="/images/sponsor/jsdc_logo.png")
+      //-   .description
+      //-     | there is jsdc offical logo, if you are want to sponsor us, please contact us
+      //- .sponsor
+      //-   img(src="/images/sponsor/jsdc_logo.png")
+      //-   .description
+      //-     | there is jsdc offical logo, if you are want to sponsor us, please contact us
+    .container
+      .text
+        h1 Sponsoring
+        p
+          | We have a wide variety of sponsoring opportunities available.
+          | They usually sell out quickly :) Talk to us:
+          a(href="mailto:hq@jsdc.tw") hq@jsdc.tw
+
+      a.img-link(href="mailto:hq@jsdc.tw")
         img(src="/images/sponsoring.jpg")
+    section.section.section-cover
+      .section-cover-logo
