@@ -98,6 +98,66 @@ a {
 	font-size: 2.8rem;
 }
 
+.team .thumb {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background: #dfdfdf;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #dfdfdf;
+  margin: 0 30px 15px;
+  padding: 1px;
+  position: relative;
+}
+
+.team img {
+  -webkit-transition: opacity 0.2s ease-in-out,-webkit-filter 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out,-webkit-filter 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out,-webkit-filter 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out,-webkit-filter 0.2s ease-in-out;
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+}
+
+.member-list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.member {
+  width: auto;
+  width: 28%;
+  margin: 48px 0;
+  text-align: center;
+  -webkit-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
+
+.member-name {
+  margin-top: 12px;
+  font-size: 2.8rem;
+}
+
+
 .wrapper {
   overflow-x: hidden;
 }
@@ -377,7 +437,7 @@ a {
 .sponsor a.outer {
   border: 1px solid red;
   display: inline-block;
-  width: 33%; 
+  width: 33%;
 }
 
 .sponsor .description {
@@ -503,6 +563,6 @@ a {
 		width: 100%;
 	}
   .sponsor a.outer {
-    width: 99.98%; 
+    width: 99.98%;
   }
 }
