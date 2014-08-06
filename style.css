@@ -157,6 +157,29 @@ a {
   font-size: 2.8rem;
 }
 
+.member-social a {
+  background: url('images/sprite-icon.png?ver=1.1.8') no-repeat 0 0;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  margin: 0 14px 0 0;
+  vertical-align: top;
+  display: inline-block;
+}
+
+a.icn-fb {
+  background-position: 0 0;
+}
+
+a.icn-tw {
+  background-position: 0 -32px;
+}
+
+a.icn-gh {
+  background-position: 0 -64px;
+}
 
 .wrapper {
   overflow-x: hidden;
