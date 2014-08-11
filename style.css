@@ -223,6 +223,18 @@ a {
   font-weight: 300;
 }
 
+.section-cover-ticket{
+    margin: 10px auto;
+    line-height:180%;
+    font-size:1.5em;
+    background:#5B585F;
+    width:20%;
+}
+
+.section-cover-ticket a{
+    color:#FFFFFF;
+}
+
 .section-intro {
   background: url(./images/photo.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -377,7 +389,7 @@ a {
 .sponsor a.outer {
   border: 1px solid red;
   display: inline-block;
-  width: 33%; 
+  width: 33%;
 }
 
 .sponsor .description {
@@ -503,6 +515,6 @@ a {
 		width: 100%;
 	}
   .sponsor a.outer {
-    width: 99.98%; 
+    width: 99.98%;
   }
 }
