@@ -122,6 +122,7 @@ a {
   max-width: 100%;
 }
 
+.sub-member-list,
 .member-list {
   display: -webkit-box;
   display: -moz-box;
@@ -152,9 +153,16 @@ a {
 }
 
 
+.sub-member-list .member {
+  width: 18%;
+}
+
 .member-name {
   margin-top: 12px;
   font-size: 2.8rem;
+}
+.sub-member-list .member-name {
+  font-size: 2.0rem;
 }
 
 .member-social a {
