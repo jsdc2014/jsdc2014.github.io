@@ -41,7 +41,7 @@
     }
 
     var array = Array.prototype;
-    
+
     DOMTokenList.prototype = {
       indexOf: array.indexOf,
       slice: array.slice,
@@ -110,9 +110,9 @@
       if (!cls) {
         throw new Error('Failed to execute \'toggle\' on \'DOMTokenList\': The token provided must not be empty.');
       }
-      
+
       syncElementClassList(this);
-      
+
       var map = this.__map;
       var el = this.__element;
       var ret;
@@ -141,11 +141,11 @@
     function syncElementClassList(list) {
       var el = list.__element;
       var classAttr = el.getAttribute('class');
-      
+
       if (classAttr === list.__cache) {
         return;
       }
-      
+
       var classList = classAttr ? classAttr.split(/\s+/) : [];
       var len = classList.length;
       var val, map = {};
@@ -165,5 +165,22 @@
       return this.__classList || (this.__classList = new DOMTokenList(this));
     });
   })();
+
+//countdown
+(function(){
+    // Instanciating a new countdown with all defaults
+     new Countdown();
+
+     // Instanciating a custom countdown
+     //
+     var countdown = new Countdown({
+        selector: '#countblock',
+        msgBefore: "JSDC 2014",
+        msgAfter: "",
+        msgPattern: "<div>{days}</div><div>{hours}</div><div>{minutes}</div><div>{seconds}</div>",
+        dateStart: new Date(),
+        dateEnd: new Date('2014/10/11 08:00')
+    });
+})()
 
 })(this, Element);
