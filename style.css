@@ -571,6 +571,74 @@ a.icn-gh {
 	background-color:#ffcc00;
 }
 
+.section-announce {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.news {
+  padding-top: 10px;
+}
+
+.news:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.date {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 18px;
+  width: 50px;
+  margin-right: 10px;
+  padding: 4px 5px;
+  background: #575757;
+  text-align: center;
+  float: left;
+  line-height: 1;
+}
+
+.news:nth-of-type(1) .date{
+  background: #0087AD;
+}
+
+.news:nth-of-type(2) .date{
+  background:#B7C41F;
+}
+
+.news:nth-of-type(3) .date{
+  background:#D13B18;
+}
+
+.date * {
+  box-sizing: border-box;
+}
+.month {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: normal;
+  display: block;
+}
+.year {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 13px;
+  display: block;
+}
+.news-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.news-content {
+  padding-left: 80px;
+  margin-top: -6px;
+}
+.news-content p {
+  margin: 0 0 20px 0;
+  text-align: left;
+
+}
+
+
 @media screen and (max-width: 1024px) {
 	.container {
 		margin: 0 54px;
