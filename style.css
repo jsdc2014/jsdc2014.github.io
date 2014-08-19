@@ -331,6 +331,30 @@ a.icn-gh {
     color:#FFFFFF;
 }
 
+.section-cover-countdown #countblock{
+    margin: 10px auto;
+    width:100%;
+}
+
+.section-cover-countdown #countblock div{
+    margin:0 15px;
+    width:60px;
+    display:inline-block;
+    background:#000000;
+    color:#FFFFFF;
+    line-height:180%;
+    font-size:2em;
+}
+
+
+.section-cover-countunit div{
+    margin:0 20px;
+    width:50px;
+    display:inline-block;
+    line-height:150%;
+    font-size:1em;
+}
+
 .section-intro {
   background: url(./images/photo.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -514,19 +538,19 @@ a.icn-gh {
 }
 .titanium img {
   width: 280px;
-  height: 160px;
+  /*height: 160px;*/
 }
 .platinum img {
   width: 200px;
-  height: 120px;
+  /*height: 120px;*/
 }
 .platinum img {
   width: 200px;
-  height: 120px;
+  /*height: 120px;*/
 }
 .gold img {
   width: 160px;
-  height: 84px;
+  /*height: 84px;*/
 }
 .silver img {
   width: 130px;
