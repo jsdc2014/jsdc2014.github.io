@@ -35,6 +35,10 @@ a {
 	max-width: 1024px;
 }
 
+.sponsoring h2:not(.titanium){
+  margin-top: 40px;
+}
+
 .sponsoring .img-link {
   text-align: center;
 }
@@ -522,7 +526,7 @@ a.icn-gh {
   border-bottom: 1px solid #cfcfcf;
 }
 .sponsor {
-  margin-bottom: 20px;
+  margin: 0 0 40px 0;
 }
 .sponsor a.outer {
   display: inline-block;
@@ -530,19 +534,19 @@ a.icn-gh {
 }
 
 .sponsor .description {
-  margin-top: 20px;
+  margin: 20px 0 0 10px;
 }
 .sponsor .brand {
   display: block;
   font-weight: bold;
 }
 .titanium img {
-  width: 280px;
-  /*height: 160px;*/
+  min-width: 280px;
+  max-height: 160px;
 }
 .platinum img {
   width: 200px;
-  /*height: 120px;*/
+  height: 116px;
 }
 .platinum img {
   width: 200px;
