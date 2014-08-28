@@ -123,49 +123,54 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
               | N/A
     tr
       td
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
         | 15:00 - 15:30
       td(colspan='2') Tea Break
     tr
       td
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
         | 15:30 - 16:20
-      td
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
-        | Huge / RxJS for frontend developers.
-      td
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
-        div
-          //
-            td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
-          | Ben Lue(mousui) / Oops! I Shrink My Web Server
+
+      td.popup
+        img.program-photo(alt='', src='/images/speakers/huge.jpeg')
+        h4.name Huge
+        span.program-name
+          a.tooltip(href="#")
+            | RxJS for frontend developers.
+            span
+              ul
+                li Async is HARD
+                li Array & Events
+                li Observable
+
+      td.popup
+        img.program-photo(alt='', src='http://community.portalsquared.com/wp-content/uploads/userphoto/no_image.png')
+        h4.name Ben Lue
+        span.program-name
+          a.tooltip(href="#")
+            | Oops! I Shrink My Web Server
+            span
+              | Convention wisdom is that software will grow in size over time, especially when more features are added to it. With our development with coServ, the next generation web server, this rule is broken. With node.js, we're able to build more features with less codes.
+              br
+              | 一般而言，一個軟體專案總是隨著時間增長而越寫越大，尤其是越多功能加於其上時。但是我們開發 coServ 這個下一代 web server 的經驗，卻是在建立許多有趣的功能時將專案越寫越小。
     tr
       td
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
         | 16:20 - 16:30
       td(colspan='2') Break
     tr
       td
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
         | 16:30 - 17:20
-      td(colspan='2')
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
-        | substack / TBD
+
+      td.popup(colspan='2')
+        img.program-photo(alt='', src='/images/speakers/substack.png')
+        h4.name substack(James Halliday)
+        span.program-name
+          a.tooltip(href="#")
+            | TBD
+            span
+              | N / A
     tr
       td 17:30 - 17:30
       td(colspan='2')
-        //
-          td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
-        | Day 1 ending
+        | Day 1 ending (後續有 Dinner party)
 
 p PS. 國際會議廳備有同步口譯設備，請於議場入口處以證件換取。以英文翻譯中文爲主
 
