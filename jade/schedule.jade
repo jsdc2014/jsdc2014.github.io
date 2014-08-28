@@ -1,0 +1,11 @@
+extends layout/layout
+
+block main
+  main(role="main").main
+  .container
+    include ./partial/_schedule_day1.jade
+    h3 特別感謝
+    .special-thanks
+      | Thanks for your contribute
+
+    include ./partial/_schedule_day2.jade

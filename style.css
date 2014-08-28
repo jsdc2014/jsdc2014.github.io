@@ -662,6 +662,54 @@ a.icn-gh {
 
 }
 
+.schedule {
+}
+
+.table thead {
+  color: #fff;
+  background-color: #333;
+  font-size: 16px;
+}
+.table thead tr th {
+  text-align: center;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+
+.table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+.table-bordered th, .table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+
+.table th, .table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table tbody tr td {
+  text-align: center;
+}
+
+td, th {
+  display: table-cell;
+}
+
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
 
 @media screen and (max-width: 1024px) {
 	.container {
