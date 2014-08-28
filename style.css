@@ -711,6 +711,59 @@ td, th {
   border-radius: 4px;
 }
 
+.program-photo {
+  width: 70px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+.popup a.docs {
+  background: url('../images/file-alt.png') no-repeat;
+  padding-left: 22px;
+  display: inline-block;
+}
+h4.name {
+  margin: 0;
+}
+
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;}
+a.tooltip span {
+    z-index:10;
+    display:none;
+    padding:10px 10px;
+    margin-top:30px;
+    margin-left:-185px;
+    width:320px;
+    line-height:16px;
+}
+a.tooltip span * {
+  text-align: left;
+}
+a.tooltip:hover span{
+    display:inline;
+    position:absolute;
+    border:2px solid #FFF;
+    color:#EEE;
+    background:#000;
+}
+.callout {z-index:20;position:absolute;border:0;top:-14px;left:120px;}
+
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    -moz-box-shadow: 0px 0px 8px 4px #666;
+    -webkit-box-shadow: 0px 0px 8px 4px #666;
+    box-shadow: 0px 0px 8px 4px #666;
+
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 1024px) {
 	.container {
 		margin: 0 54px;
