@@ -770,6 +770,16 @@ a.tooltip span
     opacity: 0.8;
 }
 
+.special-thanks img {
+  width: 200px;
+  padding-left: 15px;
+}
+.special-thanks .microsoft {
+  width: 250px;
+  position: relative;
+  top: -25px;
+}
+
 @media screen and (max-width: 1024px) {
 	.container {
 		margin: 0 54px;
