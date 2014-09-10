@@ -1,0 +1,25 @@
+extends layout/layout
+
+block main
+  main(role="main").main
+  .container
+    h2 Schedule
+    p Please feel free to 
+      a(href="http://jsdc-tw.kktix.cc/events/jsdc2014", target="_blank")  Join us
+      | .
+      | Welcome to join
+      a(href="http://jsdc-tw.kktix.cc/events/jsdc2014", target="_blank")  JSDC 2014
+      |  Right now.
+    include ./partial/_en.schedule_day1.jade
+    hr
+    include ./partial/_sponsor.jade
+    hr
+
+    include ./partial/_en.schedule_day2.jade
+    p Please feel free to  
+      a(href="http://jsdc-tw.kktix.cc/events/jsdc2014", target="_blank")  Join us
+      | .
+      | Welcome to join
+      a(href="http://jsdc-tw.kktix.cc/events/jsdc2014", target="_blank")  JSDC 2014
+      |  Right now.
+
