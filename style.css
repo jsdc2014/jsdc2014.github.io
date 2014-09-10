@@ -780,6 +780,17 @@ a.tooltip span
   top: -25px;
 }
 
+li.lang {
+  position: absolute;
+  top: -30px;
+  border: 1px solid #ccc;
+  line-height: 200%;
+  text-align: center;
+  background: #fcfcfc;
+  padding: 0 10px;
+  font-size: small;
+}
+
 @media screen and (max-width: 1024px) {
 	.container {
 		margin: 0 54px;
