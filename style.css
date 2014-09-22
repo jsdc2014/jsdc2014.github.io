@@ -769,6 +769,10 @@ a.tooltip span
 
     opacity: 0.8;
 }
+.special-thanks {
+  width: 70%;
+  margin: 0 auto;
+}
 
 .special-thanks img {
   width: 200px;
