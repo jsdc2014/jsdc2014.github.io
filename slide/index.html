@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <title>JSDC Screensaver</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="http://www.mattboldt.com/demos/typed-js/js/typed.custom.js"></script>
+        <script src="typed.custom.js"></script>
         <script src="marquee.js"></script>
         <script src="app.js"></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
@@ -263,7 +263,7 @@
             <p>Loading...</p>
         </div-->
         <div id="impress">
-            <div id="js" class="step" data-x="-1000" data-y="-2000" data-delay="10000">
+            <!--div id="js" class="step" data-x="-1000" data-y="-2000" data-delay="10000">
                 <div style="width:1000px;height:100px;font-size:0.8em;text-indent:-100px">Welcome to #jsdc2014</div>
                 <img src="images/js.svg"  width="800">
             </div>
@@ -285,7 +285,7 @@
                     <a><img src="http://captaincamp.appuniverz.org/images/customise/Hiiir.png" alt="image"  style="max-height:100px;"></a>
                     <a><img src="http://2014.jsdc.tw/images/sponsor/iii.png" alt="image"></a>
             	</div>
-            </div>
+            </div-->
 
             <div id="console" class="step" data-x="2000" data-y="-2000" data-delay="30000">
                 <div class="text-editor-wrap"><div class="title-bar"><span class="title">JSDC 2014</span></div><div class="text-body">> <span id="typed" style="white-space: auto;word-wrap:break-word;"></span></div></div>
@@ -367,7 +367,7 @@
                   "speaker":"Jonathan",
                   "photo":"http://2014.jsdc.tw/images/speakers/jonathanong.png",
                   "topic":"Koa - Asynchronous Decorators as Middleware",
-                  "intro":"Koa is the spiritual successor to Express, also written by TJ Holowaychuk. Thanks to its elimination of callbacks, many issues and complexities present in many frameworks, such as Express no longer exist. In this talk, we will discuss:<br>Problems that arise from creating apps with callback-based frameworks such as Express Complexities of other frameworks due to callback-based programming At a high-level, how to philosophically build your Koa app"
+                  "intro":"Koa is the spiritual successor to Express, also written by TJ Holowaychuk. Thanks to its elimination of callbacks, many issues and complexities present in many frameworks, such as Express no longer exist. In this talk, we will discuss:Problems that arise from creating apps with callback-based frameworks such as Express Complexities of other frameworks due to callback-based programming At a high-level, how to philosophically build your Koa app"
                },
                "1413084000000":{
                   "time":"11:20 - 12:10",
@@ -441,7 +441,7 @@
                   "speaker":"Fred Chien",
                   "photo":"http://en.gravatar.com/userimage/10121824/98b15bd27e185433ef9af778d52a0545.jpg?size=200",
                   "topic":"Feature-oriented Programming with JavaScript",
-                  "intro":"特色導向程式開發（找不到中文翻譯，所以暫譯） - Feature-oriented Programming (FOP) 是一個不同於傳統物件導向(OOP)的程式開發概念，在近年來慢慢開始有人討論其可行性。可以有效率擴充和增加程式功能，相當具有彈性，並易於管理程式架構和邏輯，利於軟體產品的開發。<br>某一天，不小心引入 FOP 到 JavaScript 和 Node.js 的開發後，意外發現 FOP 與動態語言相當契合，別有一番風味，可以用完全不一樣的方法，來看待和開發 JavaScript 應用程式。FOP 奇幻冒險，就此展開。"
+                  "intro":"特色導向程式開發（找不到中文翻譯，所以暫譯） - Feature-oriented Programming (FOP) 是一個不同於傳統物件導向(OOP)的程式開發概念，在近年來慢慢開始有人討論其可行性。可以有效率擴充和增加程式功能，相當具有彈性，並易於管理程式架構和邏輯，利於軟體產品的開發。某一天，不小心引入 FOP 到 JavaScript 和 Node.js 的開發後，意外發現 FOP 與動態語言相當契合，別有一番風味，可以用完全不一樣的方法，來看待和開發 JavaScript 應用程式。FOP 奇幻冒險，就此展開。"
                },
                "1413090600000":{
                   "time":"13:10 - 15:00",
@@ -475,7 +475,7 @@
                     }
                 }
                 var v = sessions[nextTime];
-                    var str = 'var nextTopic = {\n"topic" : "'+v.topic+'",\n"speaker":"'+v.speaker+'",\n"time":"'+v.time+'",\n"intro":"'+v.intro+'"\n};';
+                    var str = 'var nextTopic = {<br>"topic" : "'+v.topic+'",<br>"speaker" : "'+v.speaker+'",<br>"time" : "'+v.time+'",<br>"intro" : "'+v.intro+'"<br>};';
                     var typed = function(){
                       $('.title').prepend('<img src="'+v.photo+'" style="border-radius: 35px;width:35px;height:35px;"> &nbsp;');
                       $("#typed").typed({
