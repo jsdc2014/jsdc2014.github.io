@@ -3,19 +3,19 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
   thead
     tr
       th(width="15%") Time
-      th(width="40%") International Conference Hall
-      th(width="40%") 2nd Conference Room
+      th(width="40%") 國際會議廳
+      th(width="40%") 第二會議廳
   tbody
     tr
       td(width='39')
         | 08:30 - 09:00
       td(colspan='2')
-        | Registration
+        | 報到
     tr
       td
         | 09:00 - 09:15
       td(colspan='2')
-        | Opening
+        | 開場
     tr
       td
         | 09:15 - 10:05
@@ -38,6 +38,10 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
         img.program-photo(alt='', src='/images/speakers/jonathanong.png')
         h4.name Jonathan
         span.program-name
+          a.docs(href="../talks/jonathan_es7.pdf", target="_blank") 投影片 1
+          a.docs(href="../talks/jonathan_koa.pdf", target="_blank") 投影片 2
+          a.youtube
+        span.program-name
           a.tooltip(href="#")
             | Koa - Asynchronous Decorators as Middleware
             span
@@ -57,13 +61,19 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
         img.program-photo(alt='', src='/images/speakers/jlord.png')
         h4.name Jessica
         span.program-name
+          a.docs(href="../talks/jlord.pdf", target="_blank") 投影片
+          a.youtube
+        span.program-name
           a.tooltip(href="#")
             | Teaching Git and GitHub with Node.js
             span
-              | Introduction to NodeSchool.io workshoppers and community workshops and demonstrate using Node.js to interact with Git and build an interactive bot with the GitHub API.
+              |  Introduction to NodeSchool.io workshoppers and community workshops and demonstrate using Node.js to interact with Git and build an interactive bot with the GitHub API.
       td.popup
         img.program-photo(alt='', src='http://en.gravatar.com/userimage/10121824/98b15bd27e185433ef9af778d52a0545.jpg?size=200')
         h4.name Fred Chien
+        span.program-name
+          a.docs(href="../talks/fred.pdf", target="_blank") 投影片
+          a.youtube
         span.program-name
           a.tooltip(href="#")
             | Feature-oriented Programming with JavaScript
@@ -82,6 +92,9 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
         img.program-photo(alt='', src='/images/speakers/soggie.jpeg')
         h4.name Ruben
         span.program-name
+          a.docs(href="../talks/ruben.pdf", target="_blank") 投影片
+          a.youtube
+        span.program-name
           a.tooltip(href="#")
             | Leveraging ZMQ with Node.js
             span
@@ -90,8 +103,21 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
               | Small services talking to each other (Composable Design) is an integral part of large infrastructure systems design. There are many ways to facilitate communications between services, and ZMQ is one of them.
               br
               | Learn how to use ZMQ with node.js to create a service-oriented architecture, and learn how to build custom network topologies instead of being constrained to follow the standard ones that does not fit your infrastructure goals.
-      td(rowspan='3')
-        | Workshop / Building an App with Ext JS 5
+      td.popup(rowspan='3',style='vertical-align:middle')
+        img.program-photo(alt='', src='/images/speakers/stefan.jpg')
+        h4.name Stefan Stoelzle
+        span.program-name
+          a.docs(href="../talks/stefan.pdf", target="_blank") 投影片
+          a.youtube
+        span.program-name
+          a.tooltip
+            | Ext JS Workshop / The 90 Minute App
+            span
+              | In this workshop, we will provide an in-depth guide to Ext JS 5, including its layout system, data package, and MVVM. We will need Ext JS 5 and Sencha Cmd 5 for the hands-on, please make sure to download at sencha.com.
+            p(style="font-size:0.5em")
+              a.small(href="http://www.sencha.com/products/sencha-cmd/download") Download Sencha Cmd 5
+              | &nbsp;/&nbsp;
+              a.small(href="http://www.sencha.com/products/extjs/#try") Download Ext JS 5
     tr
       td
         | 14:00 - 14:10
@@ -104,10 +130,14 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
         img.program-photo(alt='', src='/images/speakers/akira.jpeg')
         h4.name 吳亮（月影）
         span.program-name
+          a.docs(href="../talks/wu360.pdf", target="_blank") 投影片
+          a.youtube
+        span.program-name
           a.tooltip(href="#")
             | 大型互聯網公司前端團隊的那些事兒
             span
               | 前端作為互聯網開發環節中的重要角色，不論在技術、工程、方法論還是個人與團隊成長上都面臨著種種挑戰。作為一位前端技術leader，我想與大家分享我在兩家大公司管理前端團隊中遇到的各種問題，​​積累的各種經驗和踩過的坑，共同探討如何通過項目積累和成長，成為行業內比較優秀的前端團隊
+
     tr
       td
         | 15:00 - 15:30
@@ -118,6 +148,9 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
       td.popup
         img.program-photo(alt='', src='/images/speakers/mafintosh.jpeg')
         h4.name Mathias
+        span.program-name
+          a.docs(href="../talks/mafintosh/jsdc-tw-2014.html", target="_blank") 投影片
+          a.youtube
         span.program-name
           a.tooltip(href="#")
             | Node.js, p2p and MAD SCIENCE
@@ -130,6 +163,9 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
       td.popup
         img.program-photo(alt='', src='https://secure.gravatar.com/avatar/c4ce16f549c450f4759eb37f5d5d1a63.png?s=205')
         h4.name othree
+        span.program-name
+          a.docs(href="../talks/othree.pdf", target="_blank") 投影片
+          a.youtube
         span.program-name
           a.tooltip(href="#")
             | node-ffi, 用 node 使用 c/c++ lib
@@ -146,13 +182,19 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
         img.program-photo(alt='', src='/images/speakers/muan.jpeg')
         h4.name Muan
         span.program-name
+          a.docs(href="../talks/muan.pdf", target="_blank") 投影片
+          a.youtube
+        span.program-name
           a.tooltip(href="#")
-            | Github Adventure
+            | GitHub 大冒險
             span
               | GitHub 有著與眾不同的文化，開發團隊常常沒有仔細的界線。我想在這邊跟大家分享 GitHub 內部的文化、開發環境，以及我加入 GitHub 一年多來所學到的事情。
       td.popup
         img.program-photo(alt='', src='http://www.gravatar.com/avatar/e3ae72c70bbc66b854df24df2120a245.png')
         h4.name 閃光洽
+        span.program-name
+          a.docs(href="../talks/hina.pdf", target="_blank") 投影片
+          a.youtube
         span.program-name
           a.tooltip(href="#")
             | Famo.us - New generation of HTML5 Web Application Framework
@@ -165,6 +207,7 @@ table.table.table-striped.table-bordered.table-hover.schedule(border='0', align=
                 li Structure and performance issues
                 li Integration with Angular
                 li Not so distant future
+
     tr
       td 17:20 - 17:30
       td(colspan='2') Break
